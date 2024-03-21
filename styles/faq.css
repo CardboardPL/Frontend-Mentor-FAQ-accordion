@@ -47,7 +47,8 @@
   border-bottom: 1px solid var(--color-2);
 }
 
-.faq-item:hover .faq-question {
+.faq-item:hover .faq-question,
+.faq-question:focus {
   color: var(--color-4);
 }
 
